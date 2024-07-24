@@ -20,7 +20,7 @@ export default class Numerator extends LightningElement {
       this.counter--;
     }
     handleMultiply(event) {
-      //alert('this is numerator cmp');
+      ////alert('this is numerator cmp');
       const factor = event.detail;
       this.counter = this.counter * factor;
     }
